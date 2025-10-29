@@ -3,10 +3,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    vertical-align: middle;
 }
 
 h1 {
   text-align: center;  
-  vertical-align: middle;
   font-family: Helvetica;
+  font-size: 400%;
+  margin-top: 18%;
+  color:rgb(68, 62, 180);
+}
+
+button {
+   text-align: center;
+   font-size: 300%;
+   color: rgb(68, 62, 180);
+   border: none;
+   background-color: rgba(0, 191, 255, 0.4);
+   display: inline-block;
+   margin: 0px 44%;
+}
+
+button:hover {
+  background-color:  rgba(0, 191, 255, 0.6);
 }
